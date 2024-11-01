@@ -5,4 +5,10 @@ In bash there are 3 loops
 * For-Loop
 * While Loop
 * Until Loop
+
+
+**For-Loop**
+
+Traditional-Way
+
   
