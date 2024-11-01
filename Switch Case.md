@@ -2,7 +2,7 @@
 
 **This is useful when we want to chain multiple if else blocks .**
 
-** Syntax 
+* Syntax 
 ```
 #!/bin/bash
 x=10
