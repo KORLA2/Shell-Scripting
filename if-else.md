@@ -6,7 +6,7 @@ If else are the conditional statements bash also has if else .
 
   ```
   #!/bin/bash
-Movie="KGF"
+  Movie="KGF"
   
   if (( Movie=="KGF"))  // (()) is used only for string comparision > < symbols can be used here and variable Movie can be accessed without $ .
   then
