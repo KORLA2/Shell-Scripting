@@ -75,12 +75,14 @@ Loop is executed until the condition becomes true
 ```
 #!/bin/bash
 i=0
-until (( i>10 )) // Until i is greater than 10 this loop is executed. If i is equal to 11 as 11>10 statement becomes true and loop is terminated. 
+until (( i>10 )) // Until i is greater than 10 this loop is executed.
+                 // If i is equal to 11 as 11>10 statement becomes true and loop is terminated. 
 
 do
 
 echo $i
 (( i++ ))
+
 done
 
 ```
