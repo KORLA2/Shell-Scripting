@@ -37,4 +37,52 @@ Arithmetic Operations //Same text has to be written
 done
 
 ```
+
+**Modern-Way**
+
+```
+#!/bin/bash
+
+for i in {1..10} // Used to print 1 to 10 numbers 
+do
+
+echo $i;
+done
+
+```
+
+**While Loop**
+
+* Syntax
+  
+```
+#!/bin/bash
+
+i=0
+while [[ $i -le 10 ]]
+do
+echo $i;
+i=$(( i+1 ))
+done 
+
+```
+
+**Until Loop**
+
+Loop is executed until the condition becomes true
+
+
+```
+#!/bin/bash
+i=0
+until (( i>10 )) // Until i is greater than 10 this loop is executed. If i is equal to 11 as 11>10 statement becomes true and loop is terminated. 
+
+do
+
+echo $i
+(( i++ ))
+done
+
+```
+
   
